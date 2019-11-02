@@ -4,10 +4,12 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 import { AppComponent } from './app.component';
+import { UserDetailComponent } from './user-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserDetailComponent
   ],
   imports: [
     BrowserModule,
